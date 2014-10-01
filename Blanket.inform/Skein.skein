@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x199c80" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x199c80" />
+  <item nodeId="node-0x199c80">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+&quot;Hello?&quot;
+
+&quot;Ah. Yes. Good afternoon, Miss White. I&apos;m calling from Color Day&apos;s Preschool. The headmaster was very impressed with you after your interview with her. After reviewing all other applicants, she has decided to give you the position of teacher&apos;s assistant.&quot;
+
+&quot;Oh my gosh! Really?&quot;
+
+&quot;Mmhm. That&apos;s right. Now before you say &quot;yes&quot;, i&apos;m going to read to you some of the responsibilities you&apos;ll need to take on for the job: &quot;You must engage the children, respect them. Clean after them, guide them. And most of all-&quot;
+
+&quot;-Treat them as if they were your own children! Got it.&quot;
+
+&quot;**Chuckles** I believe you&apos;ve already shown your prowess with the kids the other day in front of the headmaster, so she&apos;s waved off your &quot;test drive&quot;. She&apos;d like you to start next Monday, would that be okay?&quot;
+
+&quot;Yeah, that would totally be okay! Thank you for this opportunity. I&apos;m very, very grateful.&quot;
+
+&quot;Alright now, have a good day.&quot;
+
+&quot;It&apos;s already great! Have a great day to you too. Bye.&quot;
+
+Monday.
+
+After slamming the car door shut, you gracefully walk across the Parking Lot towards the school. This is your first day in the real world. After four years of training, this is what you&apos;ve been waiting for. You push open the glass doors and enter into the Parent Waiting Room. You glance around,
+Blanket
+An Interactive Fiction by Elana Shi
+Release 1 / Serial number 140930 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Parking Lot
+A large parking lot. There aren&apos;t a lot of cars in the lot right now, but a couple hours later and it&apos;ll be jam packed. Your car is parked in front of you. To the East is the Parent Waiting Room.
+
+You can see Car here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+  </item>
+</Skein>
