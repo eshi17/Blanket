@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x199c80" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x75a2cd0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x199c80" />
-  <item nodeId="node-0x199c80">
+  <activeNode nodeId="node-0x75a2cd0" />
+  <item nodeId="node-0x75a2cd0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -30,7 +30,7 @@ Monday.
 After slamming the car door shut, you gracefully walk across the Parking Lot towards the school. This is your first day in the real world. After four years of training, this is what you&apos;ve been waiting for. You push open the glass doors and enter into the Parent Waiting Room. You glance around,
 Blanket
 An Interactive Fiction by Elana Shi
-Release 1 / Serial number 140930 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141001 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Parking Lot
 A large parking lot. There aren&apos;t a lot of cars in the lot right now, but a couple hours later and it&apos;ll be jam packed. Your car is parked in front of you. To the East is the Parent Waiting Room.
@@ -40,6 +40,158 @@ You can see Car here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">NO</temporary>
+    <temporary score="25">NO</temporary>
+    <children>
+      <child nodeId="node-0xb1f3bb0" />
+      <child nodeId="node-0x13331c90" />
+    </children>
+  </item>
+  <item nodeId="node-0x13331c90">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Parent Waiting Room
+The room is a modestly sized rectangular room. Lining the pastel yellow walls are wooden armchairs. In the center of the room, there is a glass coffee table. On it is a neatly stacked pile of magazines. Next to the glass door is a water dispenser machine, with cups on top. Against the north wall is the Reception Desk. Somebody is sitting behind the desk. To the West is the Parking Lot. To the South is the Office.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0xf61c250" />
+    </children>
+  </item>
+  <item nodeId="node-0xf61c250">
+    <command xml:space="preserve">talk to girl</command>
+    <result xml:space="preserve">She looks up briefly, then back down to her phone. She nonchalantly says &quot;Your classroom is in room 102, with Miss Green. To get there, you&apos;ll have to go South, past the office, and South East to the Playground. Miss Green&apos;s classroom is just South of the Playground.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0xf685c50" />
+    </children>
+  </item>
+  <item nodeId="node-0xf685c50">
+    <command xml:space="preserve">ask girl about locked door</command>
+    <result xml:space="preserve">She looks up and rolls her eyes. After grabbing a key the desk drawer, she tosses it to you. &quot;Ten bucks if ya&quot; lose it.&quot; You thank her, and walk away from the desk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+  </item>
+  <item nodeId="node-0xb1f3bb0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0xf6278d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf6278d0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0xf65e340" />
+    </children>
+  </item>
+  <item nodeId="node-0xf65e340">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0xf638d50" />
+    </children>
+  </item>
+  <item nodeId="node-0xf638d50">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0xf677680" />
+    </children>
+  </item>
+  <item nodeId="node-0xf677680">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Parent Waiting Room
+The room is a modestly sized rectangular room. Lining the pastel yellow walls are wooden armchairs. In the center of the room, there is a glass coffee table. On it is a neatly stacked pile of magazines. Next to the glass door is a water dispenser machine, with cups on top. Against the north wall is the Reception Desk. Somebody is sitting behind the desk. To the West is the Parking Lot. To the South is the Office.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0xf628980" />
+    </children>
+  </item>
+  <item nodeId="node-0xf628980">
+    <command xml:space="preserve">kiss girl</command>
+    <result xml:space="preserve">The girl might not like that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9b00" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9b00">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Parking Lot
+A large parking lot. There aren&apos;t a lot of cars in the lot right now, but a couple hours later and it&apos;ll be jam packed. Your car is parked in front of you. To the East is the Parent Waiting Room.
+
+You can see Car here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0xa045090" />
+    </children>
+  </item>
+  <item nodeId="node-0xa045090">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Parent Waiting Room
+The room is a modestly sized rectangular room. Lining the pastel yellow walls are wooden armchairs. In the center of the room, there is a glass coffee table. On it is a neatly stacked pile of magazines. Next to the glass door is a water dispenser machine, with cups on top. Against the north wall is the Reception Desk. Somebody is sitting behind the desk. To the West is the Parking Lot. To the South is the Office.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0xf65def0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf65def0">
+    <command xml:space="preserve">kiss girl</command>
+    <result xml:space="preserve">The girl might not like that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
   </item>
 </Skein>

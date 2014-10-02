@@ -38,20 +38,25 @@ Armchairs are scenery in Parent Waiting Room. Description of Armchair is "Wooden
 
 Glass Coffee Table is scenery in Parent Waiting Room. Description of Glass Coffee Table is "A wooden table with a glass surface. There is a stack of magazines neatly stacked in the corner."
 
-Magazines are things in Parent Waiting Room. Description of Magazines is "At the top of the pile is a magazine with the headline: ‘Obama is elected as the first black President.’ Didn’t that happen a couple of years ago?" Instead of taking Magazines, say "But those are for the parents. Besides, you should be focusing on getting your task done first."
+Magazines are things in Parent Waiting Room. Magazines are undescribed. Description of Magazines is "At the top of the pile is a magazine with the headline: ‘Obama is elected as the first black President.’ Didn’t that happen a couple of years ago?" Instead of taking Magazines, say "But those are for the parents. Besides, you should be focusing on getting your task done first."
 
 Reception Desk is scenery in Parent Waiting Room. Description of Reception Desk is "The desk is very large, taking up almost half of the wall. On it is the wooden clipboard. Parents are asked to sign their children out before they take them home. There is a girl sitting behind the desk."
 
-Girl is woman in Parent Waiting Room. Description of Girl is "She is sitting behind the desk, furiously texting into her phone. She doesn't even notice that you've walked up to her."
+The girl is woman in Parent Waiting Room. The Girl is undescribed. Description of The Girl is "She is sitting behind the desk, furiously texting into her phone. She doesn't even notice that you've walked up to her."
 
-[Talking to is an action applying to one visible thing.
-Understand "talk to Girl" or “converse with
-Girl” as talking to.
+Talking to is an action applying to one visible thing.
+Understand "talk to [someone]" or “converse with
+[someone]” as talking to.
+Check talking to: say "[The noun] doesn't reply."
 [Jim Aikin]
 
->Talk to Girl, say
-"She looks up briefly, then back down to her phone. She nonchalantly says 'Your classroom is in room 102, with Miss Green. To get there, you’ll have to go South, past the office, and South East to the Playground. Miss Green’s classroom is just South of the Playground.'" Understand Speak to Girl as speaking.
+Instead of Talking to Girl, say "She looks up briefly, then back down to her phone. She nonchalantly says 'Your classroom is in room 102, with Miss Green. To get there, you’ll have to go South, past the office, and South East to the Playground. Miss Green’s classroom is just South of the Playground.'"
 
->Ask Girl about Locked Door
-“Oops! I”m so sorry. Here’s your key to the Office Door. Please keep it safe!”
-You thank her, and walk away from the desk.]
+After asking Girl about "Metal Door", say
+“She looks up and rolls her eyes. After grabbing a key the desk drawer, she tosses it to you. 'Ten bucks if you lose it.'
+You thank her, and walk away from the desk."
+
+Metal Door is a door. north of Metal Door is Parent Waiting Room. Metal Door is north of Office.
+
+[Office]
+Office is a room.
