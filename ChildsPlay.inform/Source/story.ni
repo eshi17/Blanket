@@ -18,7 +18,7 @@ When Play begins, say "'Hello?'
 
 'It’s already great! Have a great day to you too. Bye.'
 
-Monday.
+Monday:
 
 After slamming the car door shut, you gracefully walk across the Parking Lot towards the school. This is your first day in the real world. After four years of training, this is what you’ve been waiting for. You push open the glass doors and enter into the Parent Waiting Room. You glance around,
 
@@ -76,18 +76,22 @@ Sink is scenery in Lounge. Description of Sink is "Just your average Grade A sta
 Table is scenery in Lounge. Table is undescribed. Description of Table is "The faculty usually eat lunch on this table. 'Though, they don't do a very good job of cleaning it up' you think to yourself as you examine a blob of ketchup on the surface. There's a bowl at the center of the table." Bowl is thing in Lounge. Bowl is undescribed. Description of Bowl is "The bowl should have quarters for the Washer-Dryer machine, but it's empty! 'It must've been that girl at the front desk! I saw a ceramic pig thing on the reception desk...! There must be coins in there.' you think to yourself."
 Washer-Dryer Machine is thing in Lounge. Washer-Dryer Machine is undescribed. Washer-Dryer Machine is locked container. Description of Washer-Dryer Machine is "A combonation of both, this is a practical necessity for a preschool! Once the item is in the machine, you need to press the power button. The only problem is you need to insert quarters into the machine to unlock the machine. There should be a bowl full of quarters on the table."
 
-[Power Button is thing in lounge. Power Button is undescribed. Description of Power Button is "Nothing much about it. It's labeled: 'On/Off'."
-Instead of pressing power button,
-	if Brown Rag is inside Washer-Dryer Machine: say "You adjust the options to 'Speed Wash' and press the Power Button. The washer-dryer whirs to life, and you wait 15 minutes before a beeping sound blares from the machine. You take out George's blanket, now soft and fresh (and blue), and smile."; remove Brown Rag from play; move Blanket to player. 
-	if Brown Rag is not inside Washer-Dryer Machine, say "There is nothing inside the machine. Pressing the power button will not do anything but waste electricity."]
+Quarters unlock the Washer-Dryer Machine.
+
+Pressing to is an action applying to one visible thing.
+[Jim Aikin]
+
+
+Power Button is thing in lounge. Power Button is undescribed. Description of Power Button is "Nothing much about it. It's labeled: 'On/Off'."
+[After pressing power button,
+	if Brown Rag is inside Washer-Dryer Machine: say "You adjust the options to 'Speed Wash' and press the Power Button. The washer-dryer whirs to life, and you wait 15 minutes before a beeping sound blares from the machine. You take out George's blanket, now soft and fresh (and blue), and smile."; remove Brown Rag from play; move Blanket to player.
+	if Brown Rag is not inside Washer-Dryer Machine: say "There's nothing that needs washing inside. You'll accomplish nothing but waste water and electricity."]
 	
 Blanket is a thing.
 
 An every turn rule:
-    if the player is carrying the Blanket,
-    end the story finally. [Mary Kiang]
-
-Quarters unlock the Washer-Dryer Machine.
+	if the player is carrying the Blanket,
+	end the story saying "You proudly hand the blanket to George. You're about to reprimand 'Do you know the trouble I went through to get that, Mister?' when George squeals in delight. You can't help but laugh. You decide to keep that thought to yourself because George doesn't need to know that."
 
 [Classroom]
 Classroom is a room. Classroom is south of Office. Description of Classroom is "A somewhat large room, walls covered in posters. The floor is cluttered with toys and furniture. Small children run around, screaming at each other. Some of the younger children sit dumbly on a brightly colored rug, chewing on some poor plastic toy. There is a large window on the west wall, overlooking the playground. Along the four walls are cubby holes and shelves. The Office is to the North, and the Playground is to the West. Mrs. Green, the teacher, stands by the window, consoling a crying child." Toys are things in the classroom. Toys are undescribed. Instead of taking toys, say "You don't need that." Rug is scenery in the classroom.
@@ -111,3 +115,6 @@ Balls are things in playground. Balls are undescribed. Description of ball is "Y
 Plastic Toy Cart is thing in playground. Cart is undescribed. Description of cart is "Red body, yellow roof. The Cozy Coupe: a classic. You push the cart a little bit, and discover one of the wheels don't move."
 Wheel is a thing. Plastic Toy Cart incorporates Wheel. Description of Wheel is "Caught between the black plastic wheel and the metal hook is a brown rag."
 Brown Rag is a thing. Brown Rag is undescribed. Brown Rag is on Wheel. Description of Brown Rag is "On closer inspection, you realize that the blanket is soaked with mud from the grass. It must be George's soft blue Blanky! You can't give it back to George like this! There must be a way to fix this... maybe Miss Graham can help."
+
+[Player]
+Description of Player is "You tried your best to dress as 'teacher-y' as you could this morning, throwing on a pair of slacks and a blouse. You pulled your blonde hair into a sleek ponytail, kept your face free of make-up. You're ready to face those kids."
