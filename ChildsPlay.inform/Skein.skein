@@ -1,0 +1,1111 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x78900b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x78900b0" />
+  <item nodeId="node-0x78900b0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+&quot;Hello?&quot;
+
+&quot;Ah. Yes. Good afternoon, Miss White. I&apos;m calling from Color Day&apos;s Preschool. The headmaster was very impressed with you after your interview with her. After reviewing all other applicants, she has decided to give you the position of teacher&apos;s assistant.&quot;
+
+&quot;Oh my gosh! Really?&quot;
+
+&quot;Mmhm. That&apos;s right. Now before you say &quot;yes&quot;, I&apos;m going to read to you some of the responsibilities you&apos;ll need to take on for the job: &quot;You must engage the children, respect them. Clean after them, guide them. And most of all-&quot;
+
+&quot;-Treat them as if they were your own children! Got it.&quot;
+
+&quot;**Chuckles** I believe you&apos;ve already shown your prowess with the kids the other day in front of the headmaster, so she&apos;s waved off your &quot;test drive&quot;. She&apos;d like you to start next Monday, would that be okay?&quot;
+
+&quot;Yeah, that would totally be okay! Thank you for this opportunity. I&apos;m very, very grateful.&quot;
+
+&quot;Alright now, have a good day.&quot;
+
+&quot;It&apos;s already great! Have a great day to you too. Bye.&quot;
+
+Monday.
+
+After slamming the car door shut, you gracefully walk across the Parking Lot towards the school. This is your first day in the real world. After four years of training, this is what you&apos;ve been waiting for. You push open the glass doors and enter into the Parent Waiting Room. You glance around,
+
+~
+Child&apos;s Play
+An Interactive Fiction by Elana Shi
+Release 1 / Serial number 141002 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Parent Waiting Room
+The room is a modestly sized rectangular room. Lining the pastel yellow walls are wooden armchairs. Against the north wall is the Reception Desk. Somebody is sitting behind the desk. To the West is the Parking Lot. To the South is the Office.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="132">NO</temporary>
+    <children>
+      <child nodeId="node-0x78ea6b0" />
+      <child nodeId="node-0x78ea080" />
+      <child nodeId="node-0x78e9840" />
+      <child nodeId="node-0x31df50" />
+    </children>
+  </item>
+  <item nodeId="node-0x31df50">
+    <command xml:space="preserve">open car</command>
+    <result xml:space="preserve">You open Car, revealing Wallet.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="45">YES</temporary>
+    <children>
+      <child nodeId="node-0x304420" />
+      <child nodeId="node-0x31dfa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x31dfa0">
+    <command xml:space="preserve">open wallet</command>
+    <result xml:space="preserve">You open Wallet, revealing Dollar Bill.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="45">YES</temporary>
+    <children>
+      <child nodeId="node-0x3043d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3043d0">
+    <command xml:space="preserve">take dollar bill</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="44">YES</temporary>
+  </item>
+  <item nodeId="node-0x304420">
+    <command xml:space="preserve">take wallet</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x3b47e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3b47e0">
+    <command xml:space="preserve">open wallet</command>
+    <result xml:space="preserve">You open Wallet, revealing Dollar Bill.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x3b4830" />
+    </children>
+  </item>
+  <item nodeId="node-0x3b4830">
+    <command xml:space="preserve">x wallet</command>
+    <result xml:space="preserve">A small white leather wallet that you got as a graduation present. Inside are a couple of wrinkled bills.
+
+In Wallet is Dollar Bill.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="38">YES</temporary>
+  </item>
+  <item nodeId="node-0x78e9840">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Office
+The teachers don&apos;t really need to grade anything, so only the administration workers need cubicles. There are only four cubicles, two on each side of the walk way at the center. To the North is the Parent Waiting Room. To the West is the Lounge. To the South is the Playground.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x78e9890" />
+      <child nodeId="node-0x3e6250" />
+    </children>
+  </item>
+  <item nodeId="node-0x3e6250">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Classroom
+A somewhat large room, walls covered in posters. The floor is cluttered with toys and furniture. Small children run around, screaming at each other. Some of the younger children sit dumbly on a brightly colored rug, chewing on some poor plastic toy. There is a large window on the west wall, overlooking the playground. Along the four walls are cubby holes and shelves. Mrs. Green, the teacher, stands by the window, consoling a crying child.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x89eac00" />
+      <child nodeId="node-0x895b3d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x895b3d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0xdd906a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdd906a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Playground
+An open grassy space for the children to play in. There is a small plastic jungle gym at the center of the space for the older kids to play in. Next to it is a large wooden sandbox. Scattered around the grass is are jump ropes, balls, and a plastic toy cart.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0xdd80f00" />
+      <child nodeId="node-0xd86d810" />
+    </children>
+  </item>
+  <item nodeId="node-0xd86d810">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Closet
+fdsa.
+
+You can see Screwdriver here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0xddf5090" />
+    </children>
+  </item>
+  <item nodeId="node-0xddf5090">
+    <command xml:space="preserve">take screwdriver</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+  </item>
+  <item nodeId="node-0xdd80f00">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="126">YES</temporary>
+    <children>
+      <child nodeId="node-0xddc7060" />
+    </children>
+  </item>
+  <item nodeId="node-0xddc7060">
+    <command xml:space="preserve">x cart</command>
+    <result xml:space="preserve">Red body, yellow roof. The Cozy Coupe: a classic. You push the cart a little bit, and discover the wheels don&apos;t move.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="126">YES</temporary>
+    <children>
+      <child nodeId="node-0xdddbd20" />
+    </children>
+  </item>
+  <item nodeId="node-0xdddbd20">
+    <command xml:space="preserve">x wheels</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="126">YES</temporary>
+    <children>
+      <child nodeId="node-0xdda5f70" />
+    </children>
+  </item>
+  <item nodeId="node-0xdda5f70">
+    <command xml:space="preserve">x wheel</command>
+    <result xml:space="preserve">Caught between the black plastic wheel and the metal hook is a blue blanket. It must be George&apos;s. You tug the blanket, but it remains stuck. You might need to take the wheel off with a screwdriver. There might be some tools in the Closet.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="126">YES</temporary>
+    <children>
+      <child nodeId="node-0xddc2260" />
+    </children>
+  </item>
+  <item nodeId="node-0xddc2260">
+    <command xml:space="preserve">take blanket</command>
+    <result xml:space="preserve">You can&apos;t, it&apos;s stuck to the wheel.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="126">YES</temporary>
+    <children>
+      <child nodeId="node-0x89b6c00" />
+    </children>
+  </item>
+  <item nodeId="node-0x89b6c00">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="126">YES</temporary>
+    <children>
+      <child nodeId="node-0xddc9c90" />
+    </children>
+  </item>
+  <item nodeId="node-0xddc9c90">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="126">YES</temporary>
+    <children>
+      <child nodeId="node-0xd8a6fe0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd8a6fe0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Closet
+fdsa.
+
+You can see Screwdriver here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+  </item>
+  <item nodeId="node-0x89eac00">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="58">YES</temporary>
+    <children>
+      <child nodeId="node-0x89dc2d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x89dc2d0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Classroom
+A somewhat large room, walls covered in posters. The floor is cluttered with toys and furniture. Small children run around, screaming at each other. Some of the younger children sit dumbly on a brightly colored rug, chewing on some poor plastic toy. There is a large window on the west wall, overlooking the playground. Along the four walls are cubby holes and shelves. Mrs. Green, the teacher, stands by the window, consoling a crying child.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="58">YES</temporary>
+    <children>
+      <child nodeId="node-0x78e1120" />
+    </children>
+  </item>
+  <item nodeId="node-0x78e1120">
+    <command xml:space="preserve">speak to mrs. green</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="58">YES</temporary>
+    <children>
+      <child nodeId="node-0x78f64d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78f64d0">
+    <command xml:space="preserve">talk to mrs. green</command>
+    <result xml:space="preserve">You walk up to Mrs. Green and introduce yourself. &quot;Thank the Lord that you&apos;re here! This is George,&quot; she says, gesturing to the crying child. &quot;Right now, I need you to get him to stop crying. I really need to get the kids in order, and a wailing child does not help!&quot; George, a small boy, looks to you as Mrs. Green hurries away to settle another dispute.
+
+That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="58">YES</temporary>
+    <children>
+      <child nodeId="node-0x78599f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78599f0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="58">YES</temporary>
+    <children>
+      <child nodeId="node-0x89eb0a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x89eb0a0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="58">YES</temporary>
+    <children>
+      <child nodeId="node-0x781da10" />
+    </children>
+  </item>
+  <item nodeId="node-0x781da10">
+    <command xml:space="preserve">speak to mrs. green</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="58">YES</temporary>
+    <children>
+      <child nodeId="node-0x780eae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x780eae0">
+    <command xml:space="preserve">talk to mrs. green</command>
+    <result xml:space="preserve">You walk up to Mrs. Green and introduce yourself. &quot;Thank the Lord that you&apos;re here! This is George,&quot; she says, gesturing to the crying child. &quot;Right now, I need you to get him to stop crying. I really need to get the kids in order, and a wailing child does not help!&quot; George, a small boy, looks to you as Mrs. Green hurries away to settle another dispute.
+
+That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="58">YES</temporary>
+    <children>
+      <child nodeId="node-0x782a2a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x782a2a0">
+    <command xml:space="preserve">talk to mrs. green</command>
+    <result xml:space="preserve">You walk up to Mrs. Green and introduce yourself. &quot;Thank the Lord that you&apos;re here! This is George,&quot; she says, gesturing to the crying child. &quot;Right now, I need you to get him to stop crying. I really need to get the kids in order, and a wailing child does not help!&quot; George, a small boy, looks to you as Mrs. Green hurries away to settle another dispute.
+
+That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="58">YES</temporary>
+    <children>
+      <child nodeId="node-0x781c300" />
+    </children>
+  </item>
+  <item nodeId="node-0x781c300">
+    <command xml:space="preserve">talk to george</command>
+    <result xml:space="preserve">You ask George what&apos;s wrong. He wails, &quot;B-blanky is gone.&quot; Blanky? What&apos;s that?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="58">YES</temporary>
+    <children>
+      <child nodeId="node-0x89efa90" />
+    </children>
+  </item>
+  <item nodeId="node-0x89efa90">
+    <command xml:space="preserve">ask george about blanky</command>
+    <result xml:space="preserve">&quot;Soft blanky. Is blue, and soft. I want it!&quot; You ask him where he saw it last, to which he replies &quot;Playground! I ride car and put it on my head. It fall down and I lost it. Then the car broke.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="57">YES</temporary>
+  </item>
+  <item nodeId="node-0x78e9890">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x78e98e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78e98e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Parent Waiting Room
+The room is a modestly sized rectangular room. Lining the pastel yellow walls are wooden armchairs. In the center of the room, there is a glass coffee table. On it is a neatly stacked pile of magazines. Next to the glass door is a water dispenser machine, with cups on top. Against the north wall is the Reception Desk. Somebody is sitting behind the desk. To the West is the Parking Lot. To the South is the Office.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x78e9930" />
+    </children>
+  </item>
+  <item nodeId="node-0x78e9930">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x78e9980" />
+    </children>
+  </item>
+  <item nodeId="node-0x78e9980">
+    <command xml:space="preserve">take ceramic pig</command>
+    <result xml:space="preserve">You ask if you can take the Ceramic Pig, but the girl at the desk says &quot;Of course not. That&apos;s my bus money. I need a dollar to take the bus, and those quarter&apos;s are gonna get me home. If you can give me a dollar bill or something, then you can take it.&quot; You recall that you left your wallet inside the car.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x78e9ab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78e9ab0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x78e9b00" />
+    </children>
+  </item>
+  <item nodeId="node-0x78e9b00">
+    <command xml:space="preserve">open car</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x78e9b50" />
+    </children>
+  </item>
+  <item nodeId="node-0x78e9b50">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Office
+The teachers don&apos;t really need to grade anything, so only the administration workers need cubicles. There are only four cubicles, two on each side of the walk way at the center. To the West is the Headmaster&apos;s Office. To the North is the Parent Waiting Room. To the South is the Playground.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x78e9ba0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78e9ba0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x78e9bf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78e9bf0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x78e9c60" />
+    </children>
+  </item>
+  <item nodeId="node-0x78e9c60">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x78e9cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78e9cd0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x78e9d40" />
+    </children>
+  </item>
+  <item nodeId="node-0x78e9d40">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x78e99f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78e99f0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x78e9a40" />
+    </children>
+  </item>
+  <item nodeId="node-0x78e9a40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x78e9f30" />
+    </children>
+  </item>
+  <item nodeId="node-0x78e9f30">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x78e9fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78e9fa0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x78ea010" />
+    </children>
+  </item>
+  <item nodeId="node-0x78ea010">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+  </item>
+  <item nodeId="node-0x78ea080">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Parent Waiting Room
+The room is a modestly sized rectangular room. Lining the pastel yellow walls are wooden armchairs. In the center of the room, there is a glass coffee table. On it is a neatly stacked pile of magazines. Next to the glass door is a water dispenser machine, with cups on top. Against the north wall is the Reception Desk. Somebody is sitting behind the desk. To the West is the Parking Lot. To the South is the Office.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="46">YES</temporary>
+    <children>
+      <child nodeId="node-0x78ea1d0" />
+      <child nodeId="node-0x78ea0f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78ea0f0">
+    <command xml:space="preserve">talk to girl</command>
+    <result xml:space="preserve">She looks up briefly, then back down to her phone. She nonchalantly says &quot;Your classroom is in room 102, with Miss Green. To get there, you&apos;ll have to go South, past the office, and South East to the Playground. Miss Green&apos;s classroom is just South of the Playground.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0x78ea160" />
+    </children>
+  </item>
+  <item nodeId="node-0x78ea160">
+    <command xml:space="preserve">ask girl about locked door</command>
+    <result xml:space="preserve">She looks up and rolls her eyes. After grabbing a key the desk drawer, she tosses it to you. &quot;Ten bucks if ya&quot; lose it.&quot; You thank her, and walk away from the desk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+  </item>
+  <item nodeId="node-0x78ea1d0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Office
+The teachers don&apos;t really need to grade anything, so only the administration workers need cubicles. There are only four cubicles, two on each side of the walk way at the center. To the West is the Headmaster&apos;s Office. To the North is the Parent Waiting Room. To the South is the Playground.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="46">YES</temporary>
+    <children>
+      <child nodeId="node-0x78ea240" />
+    </children>
+  </item>
+  <item nodeId="node-0x78ea240">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Headmaster&apos;s Office
+The room is tidy and organized, albeit a little small. There is a shelf of books by one wall, and a sofa on the other. Potted plants hang in front of a large window, overlooking the Parking Lot. At the center of the room is a large wooden desk. There are stacks of papers and forms just waiting to be signed. Behind the desk is the Headmaster, Ms. Color.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="46">YES</temporary>
+    <children>
+      <child nodeId="node-0x78ea2b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78ea2b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="46">YES</temporary>
+    <children>
+      <child nodeId="node-0x78ea320" />
+    </children>
+  </item>
+  <item nodeId="node-0x78ea320">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="46">YES</temporary>
+    <children>
+      <child nodeId="node-0x78ea390" />
+    </children>
+  </item>
+  <item nodeId="node-0x78ea390">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="46">YES</temporary>
+    <children>
+      <child nodeId="node-0x78e9db0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78e9db0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+The teachers don&apos;t really need to grade anything, so only the administration workers need cubicles. There are only four cubicles, two on each side of the walk way at the center. To the West is the Headmaster&apos;s Office. To the North is the Parent Waiting Room. To the South is the Playground.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="46">YES</temporary>
+    <children>
+      <child nodeId="node-0x78e9e20" />
+    </children>
+  </item>
+  <item nodeId="node-0x78e9e20">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Headmaster&apos;s Office
+The room is tidy and organized, albeit a little small. There is a shelf of books by one wall, and a sofa on the other. Potted plants hang in front of a large window, overlooking the Parking Lot. At the center of the room is a large wooden desk. There are stacks of papers and forms just waiting to be signed. Behind the desk is the Headmaster, Ms. Color.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="46">YES</temporary>
+    <children>
+      <child nodeId="node-0x78e9e90" />
+    </children>
+  </item>
+  <item nodeId="node-0x78e9e90">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+The teachers don&apos;t really need to grade anything, so only the administration workers need cubicles. There are only four cubicles, two on each side of the walk way at the center. To the West is the Headmaster&apos;s Office. To the North is the Parent Waiting Room. To the South is the Playground.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="46">YES</temporary>
+    <children>
+      <child nodeId="node-0x78ea640" />
+    </children>
+  </item>
+  <item nodeId="node-0x78ea640">
+    <command xml:space="preserve">w</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="45">YES</temporary>
+  </item>
+  <item nodeId="node-0x78ea6b0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="143">YES</temporary>
+    <children>
+      <child nodeId="node-0x78ead40" />
+      <child nodeId="node-0x78ea720" />
+    </children>
+  </item>
+  <item nodeId="node-0x78ea720">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Parking Lot
+A large parking lot. There aren&apos;t a lot of cars in the lot right now, but a couple hours later and it&apos;ll be jam packed. Your car is parked in front of you. To the East is the Parent Waiting Room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="143">YES</temporary>
+    <children>
+      <child nodeId="node-0x78ea790" />
+    </children>
+  </item>
+  <item nodeId="node-0x78ea790">
+    <command xml:space="preserve">take wallet</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="143">YES</temporary>
+    <children>
+      <child nodeId="node-0x78ea800" />
+    </children>
+  </item>
+  <item nodeId="node-0x78ea800">
+    <command xml:space="preserve">take car</command>
+    <result xml:space="preserve">That&apos;s hardly portable.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="143">YES</temporary>
+    <children>
+      <child nodeId="node-0x78ea870" />
+    </children>
+  </item>
+  <item nodeId="node-0x78ea870">
+    <command xml:space="preserve">open car</command>
+    <result xml:space="preserve">You open Car, revealing Wallet.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="143">YES</temporary>
+    <children>
+      <child nodeId="node-0x78ea8e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78ea8e0">
+    <command xml:space="preserve">take wallet</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="143">YES</temporary>
+    <children>
+      <child nodeId="node-0x78ea950" />
+    </children>
+  </item>
+  <item nodeId="node-0x78ea950">
+    <command xml:space="preserve">open wallet</command>
+    <result xml:space="preserve">You open Wallet, revealing Dollar Bill.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="143">YES</temporary>
+    <children>
+      <child nodeId="node-0x78ea9c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78ea9c0">
+    <command xml:space="preserve">take dollar bill</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="143">YES</temporary>
+    <children>
+      <child nodeId="node-0x78eaa30" />
+    </children>
+  </item>
+  <item nodeId="node-0x78eaa30">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="143">YES</temporary>
+    <children>
+      <child nodeId="node-0x78eaaa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78eaaa0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Parent Waiting Room
+The room is a modestly sized rectangular room. Lining the pastel yellow walls are wooden armchairs. Against the north wall is the Reception Desk. Somebody is sitting behind the desk. To the West is the Parking Lot. To the South is the Office.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="143">YES</temporary>
+    <children>
+      <child nodeId="node-0x78eab10" />
+    </children>
+  </item>
+  <item nodeId="node-0x78eab10">
+    <command xml:space="preserve">give dollar bill to the girl</command>
+    <result xml:space="preserve">You hand her the Dollar Bill, and she nods her head to the Ceramic Pig. You can take four quarters.&quot; You take the Ceramic Pig, and pull the rubber stopper from under it. Gently shaking the Ceramic Pig, four quarters fall into your palm. You put the Ceramic Pig back, and thank the girl.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="143">YES</temporary>
+    <children>
+      <child nodeId="node-0x78eab80" />
+    </children>
+  </item>
+  <item nodeId="node-0x78eab80">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Office
+The teachers don&apos;t really need to grade anything, so only the administration workers need cubicles. There are only four cubicles, two on each side of the walk way at the center. To the North is the Parent Waiting Room. To the West is the Lounge. To the South is the Playground.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="143">YES</temporary>
+    <children>
+      <child nodeId="node-0x78eabf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78eabf0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="143">YES</temporary>
+    <children>
+      <child nodeId="node-0x78eac60" />
+    </children>
+  </item>
+  <item nodeId="node-0x78eac60">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Classroom
+A somewhat large room, walls covered in posters. The floor is cluttered with toys and furniture. Small children run around, screaming at each other. Some of the younger children sit dumbly on a brightly colored rug, chewing on some poor plastic toy. There is a large window on the west wall, overlooking the playground. Along the four walls are cubby holes and shelves. Mrs. Green, the teacher, stands by the window, consoling a crying child.
+
+You can see Funiture here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="143">YES</temporary>
+    <children>
+      <child nodeId="node-0x78eacd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78eacd0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="142">YES</temporary>
+  </item>
+  <item nodeId="node-0x78ead40">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x78ea550" />
+      <child nodeId="node-0x78ea400" />
+    </children>
+  </item>
+  <item nodeId="node-0x78ea400">
+    <command xml:space="preserve">open car</command>
+    <result xml:space="preserve">You open Car, revealing Wallet.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x78ea470" />
+    </children>
+  </item>
+  <item nodeId="node-0x78ea470">
+    <command xml:space="preserve">open wallet</command>
+    <result xml:space="preserve">You open Wallet, revealing Dollar Bill.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x78ea4e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78ea4e0">
+    <command xml:space="preserve">take dollar bill</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+  </item>
+  <item nodeId="node-0x78ea550">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x78ea5c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78ea5c0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x78eadb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78eadb0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Parent Waiting Room
+The room is a modestly sized rectangular room. Lining the pastel yellow walls are wooden armchairs. In the center of the room, there is a glass coffee table. On it is a neatly stacked pile of magazines. Next to the glass door is a water dispenser machine, with cups on top. Against the north wall is the Reception Desk. Somebody is sitting behind the desk. To the West is the Parking Lot. To the South is the Office.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x78eae20" />
+    </children>
+  </item>
+  <item nodeId="node-0x78eae20">
+    <command xml:space="preserve">kiss girl</command>
+    <result xml:space="preserve">The girl might not like that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x78eae90" />
+    </children>
+  </item>
+  <item nodeId="node-0x78eae90">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Parking Lot
+A large parking lot. There aren&apos;t a lot of cars in the lot right now, but a couple hours later and it&apos;ll be jam packed. Your car is parked in front of you. To the East is the Parent Waiting Room.
+
+You can see Car here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x78eaf00" />
+    </children>
+  </item>
+  <item nodeId="node-0x78eaf00">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Parent Waiting Room
+The room is a modestly sized rectangular room. Lining the pastel yellow walls are wooden armchairs. In the center of the room, there is a glass coffee table. On it is a neatly stacked pile of magazines. Next to the glass door is a water dispenser machine, with cups on top. Against the north wall is the Reception Desk. Somebody is sitting behind the desk. To the West is the Parking Lot. To the South is the Office.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x78eaf70" />
+    </children>
+  </item>
+  <item nodeId="node-0x78eaf70">
+    <command xml:space="preserve">kiss girl</command>
+    <result xml:space="preserve">The girl might not like that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+  </item>
+</Skein>
