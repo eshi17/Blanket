@@ -32,7 +32,7 @@ After slamming the car door shut, you gracefully walk across the Parking Lot tow
 ~
 Child&apos;s Play
 An Interactive Fiction by Elana Shi
-Release 1 / Serial number 141002 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141003 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Parent Waiting Room
 The room is a modestly sized rectangular room. Lining the pastel yellow walls are wooden armchairs. Against the north wall is the reception cesk. There is a girl sitting behind the desk. To the West is the Parking Lot. To the South is the Office.
@@ -40,7 +40,7 @@ The room is a modestly sized rectangular room. Lining the pastel yellow walls ar
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="496">NO</temporary>
+    <temporary score="5">NO</temporary>
     <children>
       <child nodeId="node-0xa9c35b0" />
       <child nodeId="node-0xa9c1e80" />

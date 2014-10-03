@@ -2,7 +2,7 @@
 
 When Play begins, say "'Hello?'
 
-'Ah. Yes. Good afternoon, Miss White. I’m calling from Color Day’s Preschool. The headmaster was very impressed with you after your interview with her. After reviewing all other applicants, she has decided to give you the position of teacher’s assistant.'
+'Ah. Yes. Good afternoon, Miss White. I am the Headmaster of Sunny Day Preschool, Miss Graham. I was very impressed with you after your interview the other. After reviewing all other applicants, I've decided to give you the position of teacher’s assistant.'
 
 'Oh my gosh! Really?'
 
@@ -10,7 +10,7 @@ When Play begins, say "'Hello?'
 
 '—Treat them as if they were your own children! Got it.'
 
-'**Chuckles** I believe you’ve already shown your prowess with the kids the other day in front of the headmaster, so she’s waved off your 'test drive'. She’d like you to start next Monday, would that be okay?'
+'**Chuckles** You’ve already shown your prowess with the kids the other day, so I'm waved off your 'test drive'. I’d like you to start next Monday, would that be okay?'
 
 'Yeah, that would totally be okay! Thank you for this opportunity. I’m very, very grateful.'
 
@@ -26,7 +26,7 @@ After slamming the car door shut, you gracefully walk across the Parking Lot tow
 
 [Parent Waiting Room]
 Parent Waiting Room is a room. It is east of Parking Lot.
-Description of Parent Waiting Room is "The room is a modestly sized rectangular room. Lining the pastel yellow walls are wooden armchairs. Against the north wall is the reception cesk. There is a girl sitting behind the desk. To the West is the Parking Lot. To the South is the Office."
+Description of Parent Waiting Room is "The room is a modestly sized rectangular room. Lining the pastel yellow walls are wooden armchairs. Against the north wall is the reception desk. There is a girl sitting behind the desk. To the West is the Parking Lot. To the South is the Office."
 
 Description of Walls of Parent Waiting Room is "Pastel yellow— a neutral color. It’s quite calming, actually. There is a large bulletin board on the north wall, next to the reception desk."
 
@@ -74,18 +74,14 @@ Lounge is a room. Lounge is west of Office. Description of Lounge is "There is a
 Microwave is scenery in Lounge. Microwave is undescribed. Description of Microwave is "A microwave means you can eat hot lunches here!" Microwave is a closed openable container.
 Sink is scenery in Lounge. Description of Sink is "Just your average Grade A stainless steel sink."
 Table is scenery in Lounge. Table is undescribed. Description of Table is "The faculty usually eat lunch on this table. 'Though, they don't do a very good job of cleaning it up' you think to yourself as you examine a blob of ketchup on the surface. There's a bowl at the center of the table." Bowl is thing in Lounge. Bowl is undescribed. Description of Bowl is "The bowl should have quarters for the Washer-Dryer machine, but it's empty! 'It must've been that girl at the front desk! I saw a ceramic pig thing on the reception desk...! There must be coins in there.' you think to yourself."
-Washer-Dryer Machine is thing in Lounge. Washer-Dryer Machine is undescribed. Washer-Dryer Machine is locked container. Description of Washer-Dryer Machine is "A combonation of both, this is a practical necessity for a preschool! Once the item is in the machine, you need to press the power button. The only problem is you need to insert quarters into the machine to unlock the machine. There should be a bowl full of quarters on the table."
+Washer-Dryer Machine is thing in Lounge. Washer-Dryer Machine is undescribed. Washer-Dryer Machine is locked container. Description of Washer-Dryer Machine is "A combination of both, this is a practical necessity for a preschool! The only problem is you need to insert quarters into the machine to unlock the machine. There should be a bowl full of quarters on the table."
 
 Quarters unlock the Washer-Dryer Machine.
 
-Pressing to is an action applying to one visible thing.
-[Jim Aikin]
+Putting to is an action applying to one visible thing.
 
-
-Power Button is thing in lounge. Power Button is undescribed. Description of Power Button is "Nothing much about it. It's labeled: 'On/Off'."
-[After pressing power button,
-	if Brown Rag is inside Washer-Dryer Machine: say "You adjust the options to 'Speed Wash' and press the Power Button. The washer-dryer whirs to life, and you wait 15 minutes before a beeping sound blares from the machine. You take out George's blanket, now soft and fresh (and blue), and smile."; remove Brown Rag from play; move Blanket to player.
-	if Brown Rag is not inside Washer-Dryer Machine: say "There's nothing that needs washing inside. You'll accomplish nothing but waste water and electricity."]
+An every turn rule:
+	If Brown Rag is in Washer-Dryer Machine, say "You adjust the options to 'Speed Wash' and press the Power Button. The washer-dryer whirs to life, and you wait 15 minutes before a beeping sound blares from the machine. You take out George's blanket, now soft and fresh (and blue), and smile."; remove Brown Rag from play; move Blanket to player.
 	
 Blanket is a thing.
 
