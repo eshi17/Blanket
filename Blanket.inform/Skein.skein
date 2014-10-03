@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x75a2cd0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x1d7a70" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x75a2cd0" />
-  <item nodeId="node-0x75a2cd0">
+  <activeNode nodeId="node-0x1d7a70" />
+  <item nodeId="node-0x1d7a70">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -35,18 +35,16 @@ Release 1 / Serial number 141001 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 Parking Lot
 A large parking lot. There aren&apos;t a lot of cars in the lot right now, but a couple hours later and it&apos;ll be jam packed. Your car is parked in front of you. To the East is the Parent Waiting Room.
 
-You can see Car here.
-
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="25">NO</temporary>
+    <temporary score="46">NO</temporary>
     <children>
-      <child nodeId="node-0xb1f3bb0" />
-      <child nodeId="node-0x13331c90" />
+      <child nodeId="node-0x1d7d00" />
+      <child nodeId="node-0x1d7ac0" />
     </children>
   </item>
-  <item nodeId="node-0x13331c90">
+  <item nodeId="node-0x1d7ac0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Parent Waiting Room
@@ -54,13 +52,14 @@ The room is a modestly sized rectangular room. Lining the pastel yellow walls ar
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="25">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="46">YES</temporary>
     <children>
-      <child nodeId="node-0xf61c250" />
+      <child nodeId="node-0x1d7bb0" />
+      <child nodeId="node-0x1d7b10" />
     </children>
   </item>
-  <item nodeId="node-0xf61c250">
+  <item nodeId="node-0x1d7b10">
     <command xml:space="preserve">talk to girl</command>
     <result xml:space="preserve">She looks up briefly, then back down to her phone. She nonchalantly says &quot;Your classroom is in room 102, with Miss Green. To get there, you&apos;ll have to go South, past the office, and South East to the Playground. Miss Green&apos;s classroom is just South of the Playground.&quot;
 
@@ -69,10 +68,10 @@ The room is a modestly sized rectangular room. Lining the pastel yellow walls ar
     <changed>YES</changed>
     <temporary score="25">YES</temporary>
     <children>
-      <child nodeId="node-0xf685c50" />
+      <child nodeId="node-0x1d7b60" />
     </children>
   </item>
-  <item nodeId="node-0xf685c50">
+  <item nodeId="node-0x1d7b60">
     <command xml:space="preserve">ask girl about locked door</command>
     <result xml:space="preserve">She looks up and rolls her eyes. After grabbing a key the desk drawer, she tosses it to you. &quot;Ten bucks if ya&quot; lose it.&quot; You thank her, and walk away from the desk.
 
@@ -81,7 +80,119 @@ The room is a modestly sized rectangular room. Lining the pastel yellow walls ar
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
   </item>
-  <item nodeId="node-0xb1f3bb0">
+  <item nodeId="node-0x1d7bb0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Office
+The teachers don&apos;t really need to grade anything, so only the administration workers need cubicles. There are only four cubicles, two on each side of the walk way at the center. To the West is the Headmaster&apos;s Office. To the North is the Parent Waiting Room. To the South is the Playground.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="46">YES</temporary>
+    <children>
+      <child nodeId="node-0x1d7c00" />
+    </children>
+  </item>
+  <item nodeId="node-0x1d7c00">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Headmaster&apos;s Office
+The room is tidy and organized, albeit a little small. There is a shelf of books by one wall, and a sofa on the other. Potted plants hang in front of a large window, overlooking the Parking Lot. At the center of the room is a large wooden desk. There are stacks of papers and forms just waiting to be signed. Behind the desk is the Headmaster, Ms. Color.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="46">YES</temporary>
+    <children>
+      <child nodeId="node-0x1d7c70" />
+    </children>
+  </item>
+  <item nodeId="node-0x1d7c70">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="46">YES</temporary>
+    <children>
+      <child nodeId="node-0x1d7d60" />
+    </children>
+  </item>
+  <item nodeId="node-0x1d7d60">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="46">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f0b90" />
+    </children>
+  </item>
+  <item nodeId="node-0x1f0b90">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="46">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f0be0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1f0be0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+The teachers don&apos;t really need to grade anything, so only the administration workers need cubicles. There are only four cubicles, two on each side of the walk way at the center. To the West is the Headmaster&apos;s Office. To the North is the Parent Waiting Room. To the South is the Playground.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="46">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f0c50" />
+    </children>
+  </item>
+  <item nodeId="node-0x1f0c50">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Headmaster&apos;s Office
+The room is tidy and organized, albeit a little small. There is a shelf of books by one wall, and a sofa on the other. Potted plants hang in front of a large window, overlooking the Parking Lot. At the center of the room is a large wooden desk. There are stacks of papers and forms just waiting to be signed. Behind the desk is the Headmaster, Ms. Color.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="46">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f0cc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1f0cc0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+The teachers don&apos;t really need to grade anything, so only the administration workers need cubicles. There are only four cubicles, two on each side of the walk way at the center. To the West is the Headmaster&apos;s Office. To the North is the Parent Waiting Room. To the South is the Playground.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="46">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f0df0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1f0df0">
+    <command xml:space="preserve">w</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="45">YES</temporary>
+  </item>
+  <item nodeId="node-0x1d7d00">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -90,10 +201,10 @@ The room is a modestly sized rectangular room. Lining the pastel yellow walls ar
     <changed>NO</changed>
     <temporary score="22">YES</temporary>
     <children>
-      <child nodeId="node-0xf6278d0" />
+      <child nodeId="node-0x1f0e60" />
     </children>
   </item>
-  <item nodeId="node-0xf6278d0">
+  <item nodeId="node-0x1f0e60">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -102,10 +213,10 @@ The room is a modestly sized rectangular room. Lining the pastel yellow walls ar
     <changed>NO</changed>
     <temporary score="22">YES</temporary>
     <children>
-      <child nodeId="node-0xf65e340" />
+      <child nodeId="node-0x1f0ed0" />
     </children>
   </item>
-  <item nodeId="node-0xf65e340">
+  <item nodeId="node-0x1f0ed0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -114,10 +225,10 @@ The room is a modestly sized rectangular room. Lining the pastel yellow walls ar
     <changed>NO</changed>
     <temporary score="22">YES</temporary>
     <children>
-      <child nodeId="node-0xf638d50" />
+      <child nodeId="node-0x1f0f40" />
     </children>
   </item>
-  <item nodeId="node-0xf638d50">
+  <item nodeId="node-0x1f0f40">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -126,10 +237,10 @@ The room is a modestly sized rectangular room. Lining the pastel yellow walls ar
     <changed>NO</changed>
     <temporary score="22">YES</temporary>
     <children>
-      <child nodeId="node-0xf677680" />
+      <child nodeId="node-0x1f0fb0" />
     </children>
   </item>
-  <item nodeId="node-0xf677680">
+  <item nodeId="node-0x1f0fb0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Parent Waiting Room
@@ -140,10 +251,10 @@ The room is a modestly sized rectangular room. Lining the pastel yellow walls ar
     <changed>YES</changed>
     <temporary score="22">YES</temporary>
     <children>
-      <child nodeId="node-0xf628980" />
+      <child nodeId="node-0x1f1020" />
     </children>
   </item>
-  <item nodeId="node-0xf628980">
+  <item nodeId="node-0x1f1020">
     <command xml:space="preserve">kiss girl</command>
     <result xml:space="preserve">The girl might not like that.
 
@@ -152,10 +263,10 @@ The room is a modestly sized rectangular room. Lining the pastel yellow walls ar
     <changed>NO</changed>
     <temporary score="22">YES</temporary>
     <children>
-      <child nodeId="node-0x7f9b00" />
+      <child nodeId="node-0x1f1090" />
     </children>
   </item>
-  <item nodeId="node-0x7f9b00">
+  <item nodeId="node-0x1f1090">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Parking Lot
@@ -168,10 +279,10 @@ You can see Car here.
     <changed>YES</changed>
     <temporary score="22">YES</temporary>
     <children>
-      <child nodeId="node-0xa045090" />
+      <child nodeId="node-0x1f0d30" />
     </children>
   </item>
-  <item nodeId="node-0xa045090">
+  <item nodeId="node-0x1f0d30">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Parent Waiting Room
@@ -182,10 +293,10 @@ The room is a modestly sized rectangular room. Lining the pastel yellow walls ar
     <changed>YES</changed>
     <temporary score="22">YES</temporary>
     <children>
-      <child nodeId="node-0xf65def0" />
+      <child nodeId="node-0x1f0d80" />
     </children>
   </item>
-  <item nodeId="node-0xf65def0">
+  <item nodeId="node-0x1f0d80">
     <command xml:space="preserve">kiss girl</command>
     <result xml:space="preserve">The girl might not like that.
 

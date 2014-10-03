@@ -25,7 +25,7 @@ After slamming the car door shut, you gracefully walk across the Parking Lot tow
 Parking Lot is a room.
 Description of Parking Lot is "A large parking lot. There aren’t a lot of cars in the lot right now, but a couple hours later and it’ll be jam packed. Your car is parked in front of you. To the East is the Parent Waiting Room." Parking Lot is west of Parent Waiting Room.
 
-Car is a thing in Parking Lot. Description of car is "A brown toyota. You beam at its presence in the faculty parking. Welcome home, car."
+Car is a thing in Parking Lot. Car is undescribed. Description of car is "A brown toyota. You beam at its presence in the faculty parking. Welcome home, car."
 
 Parent Waiting Room is a room. It is east of Parking Lot.
 Description of Parent Waiting Room is "The room is a modestly sized rectangular room. Lining the pastel yellow walls are wooden armchairs. In the center of the room, there is a glass coffee table. On it is a neatly stacked pile of magazines. Next to the glass door is a water dispenser machine, with cups on top. Against the north wall is the Reception Desk. Somebody is sitting behind the desk. To the West is the Parking Lot. To the South is the Office."
@@ -56,7 +56,25 @@ After asking Girl about "Metal Door", say
 “She looks up and rolls her eyes. After grabbing a key the desk drawer, she tosses it to you. 'Ten bucks if you lose it.'
 You thank her, and walk away from the desk."
 
-Metal Door is a door. north of Metal Door is Parent Waiting Room. Metal Door is north of Office.
+Metal Door is a door. Metal door is undescribed. north of Metal Door is Parent Waiting Room. Metal Door is north of Office.
 
 [Office]
-Office is a room.
+Office is a room. South of Parent Waiting Room is Office. Description of Office is "The teachers don’t really need to grade anything, so only the administration workers need cubicles. There are only four cubicles, two on each side of the walk way at the center. To the West is the Headmaster’s Office. To the North is the Parent Waiting Room. To the South is the Playground."
+
+Cubicles are scenery in Office. "These belong to the office administration workers. You shouldn’t go in… they’re working pretty hard inside."
+
+Headmaster’s Office is a room. Headmaster's Office is west of Office. Description of Headmaster's Office is "The room is tidy and organized, albeit a little small. There is a shelf by one wall, and a sofa on the other. Potted plants hang in front of a large window, overlooking the Parking Lot. At the center of the room is a large wooden desk. There are stacks of papers and forms just waiting to be signed. Behind the desk is the Headmaster, Ms. Orange"
+
+Sofa is scenery in Headmaster's office. "For both parents and children to sit on in meetings with the Headmaster. No doubt it’s not the most sanitary sofa in the world, but it’s not a surprise in a preschool."
+Potted Plants is scenery in headmaster's office. "A leafy addition to the small room. The plants are growing well."
+Wooden Desk is scenery in Headmaster's Office. "A broad rose wood desk. It is beautiful, but aged. Stacks of unsigned paper sit heavily in one corner."
+Papers are things in Headmaster's Office. It is undescribed. Instead of taking papers, say "You shouldn't touch those."
+
+Ceramic pig is on Shelf. Ceramic Pig is a thing. Description of Ceramic PIg is "The trinket fits nicely into the palm of your hand."
+
+[The Shelf is a kind of raised supporter. Shelf is in the Headmaster's Office. It is scenery. "Dusty yearbooks and books of reference for child psychology are neatly lined on the shelf. There are also many little trinkets and decorations on the top level of the shelf including a picture frame, a toy duck, and a ceramic pig."
+Definition: Ceramic Pig is out of reach: 
+    if the player is on Stool, no; 
+    if the Ceramic Pig is on a raised supporter, yes; 
+    no.
+Stool is a kind of supporter. Stool is in Headmaster's Office.]
