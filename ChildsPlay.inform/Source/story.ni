@@ -79,16 +79,18 @@ Washer-Dryer Machine is thing in Lounge. Washer-Dryer Machine is undescribed. Wa
 Quarters unlock the Washer-Dryer Machine.
 
 Putting to is an action applying to one visible thing.
-
-An every turn rule:
-	If Brown Rag is in Washer-Dryer Machine, say "You adjust the options to 'Speed Wash' and press the Power Button. The washer-dryer whirs to life, and you wait 15 minutes before a beeping sound blares from the machine. You take out George's blanket, now soft and fresh (and blue), and smile."; remove Brown Rag from play; move Blanket to player.
-	
 Blanket is a thing.
 
 An every turn rule:
-	if the player is carrying the Blanket,
-	end the story saying "You proudly hand the blanket to George. You're about to reprimand 'Do you know the trouble I went through to get that, Mister?' when George squeals in delight. You can't help but laugh. You decide to keep that thought to yourself because George doesn't need to know that."
+	If Brown Rag is in Washer-Dryer Machine: 
+		say "You adjust the options to 'Speed Wash' and press the Power Button. The washer-dryer whirs to life, and you wait 15 minutes before a beeping sound blares from the machine. You take out George's blanket, now soft and fresh (and blue), and smile.";
+		remove Brown Rag from play; 
+		move Blanket to player.
 
+An every turn rule:
+	if the player is carrying the Blanket,
+		end the story finally saying "You proudly hand the blanket to George. You're about to reprimand 'Do you know the trouble I went through to get that, Mister?' when George squeals in delight. You can't help but laugh. You decide to keep that thought to yourself because George doesn't need to know that.".
+		
 [Classroom]
 Classroom is a room. Classroom is south of Office. Description of Classroom is "A somewhat large room, walls covered in posters. The floor is cluttered with toys and furniture. Small children run around, screaming at each other. Some of the younger children sit dumbly on a brightly colored rug, chewing on some poor plastic toy. There is a large window on the west wall, overlooking the playground. Along the four walls are cubby holes and shelves. The Office is to the North, and the Playground is to the West. Mrs. Green, the teacher, stands by the window, consoling a crying child." Toys are things in the classroom. Toys are undescribed. Instead of taking toys, say "You don't need that." Rug is scenery in the classroom.
 
@@ -109,7 +111,7 @@ Wooden Sandbox is scenery in playground. Description of Sandbox is "A center for
 Jump Rope is thing in playground. Jump rope is undescribed. Description of jump rope is "Double dutch was never your thing. Your hand-eye coordination just goes out the window as soon as you grip those plastic handles." Instead of taking jump rope, say "Now's not the time."
 Balls are things in playground. Balls are undescribed. Description of ball is "You played a little bit of soccer in middle school, but you'll probably stick to playing toss with the kids here." Instead of taking balls, say "Now's not the time."
 Plastic Toy Cart is thing in playground. Cart is undescribed. Description of cart is "Red body, yellow roof. The Cozy Coupe: a classic. You push the cart a little bit, and discover one of the wheels don't move."
-Wheel is a thing. Plastic Toy Cart incorporates Wheel. Description of Wheel is "Caught between the black plastic wheel and the metal hook is a brown rag."
+Wheel is a thing. Plastic Toy Cart incorporates Wheel. "Caught between the black plastic wheel and the metal hook is a brown rag." Description of Wheel is "Black plastic wheel attached to the cart."
 Brown Rag is a thing. Brown Rag is undescribed. Brown Rag is on Wheel. Description of Brown Rag is "On closer inspection, you realize that the blanket is soaked with mud from the grass. It must be George's soft blue Blanky! You can't give it back to George like this! There must be a way to fix this... maybe Miss Graham can help."
 
 [Player]
