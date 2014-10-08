@@ -56,7 +56,8 @@ Reception Desk is scenery in Parent Waiting Room. Description of Reception Desk 
 
 Trinkets are things in Parent Waiting Room. Trinkets are undescribed. Description of Trinkets is "Trinkets include a potted plant and a ceramic pig." Instead of taking Trinkets, say "Maybe you should examine them individually first."
 Potted Plant is scenery in Parent Waiting Room. "A leafy addition to the room. The plant is growing well."
-Ceramic Pig is thing in Parent Waiting Room. Ceramic Pig is undescribed. Description of Ceramic pig is "A small pig ceramic pig that fits nicely into the palm of your hand. When you shake it, a loud clinking sounds the room." Quarters is thing. Quarter is undescribed. "[if the player is carrying quarters] A small pig ceramic pig that fits nicely into the palm of your hand. It is empty." [received this from Brennan Brown]
+Ceramic Pig is thing in Parent Waiting Room. Ceramic Pig is undescribed. Description of Ceramic pig is "[If Player is carrying Quarters] It is empty. [end if] A small pig ceramic pig that fits nicely into the palm of your hand. You think it is a piggy bank." Quarters is thing. Quarter is undescribed. [From Lee-Won]
+
 Instead of taking Ceramic Pig, say "You ask if you can take the Ceramic Pig, but the girl at the desk says 'Of course not. That's my bus money. I need a dollar to take the bus, and those quarter's are gonna get me home. If you can give me a dollar bill or something, then you can take it.' You recall that you left your wallet inside the car." [I had to think about how to do this for a bit.]
 
 [As I described things, I realized I would describe the object by introducing more objects. This got tedious.]
@@ -170,7 +171,7 @@ Small Ladder is scenery in playground. Description of Small Ladder is "There are
 Tic-tac-toe Game is scenery in playground. Description of Tic-Tac-Toe Game is "What do you mean the spinny things are supposed to be a game?"
 Wooden Sandbox is scenery in playground. Description of Sandbox is "A center for aspiring-architect toddlers to built their dream, er, mound."
 Jump Ropes is thing in playground. Jump ropes is undescribed. Description of jump ropes is "Double dutch was never your thing. Your hand-eye coordination just goes out the window as soon as you grip those plastic handles." Instead of taking jump ropes, say "Now's not the time."
-Ball are things in playground. Ball are undescribed. Description of ball is "You played a little bit of soccer in middle school, but you'll probably stick to playing toss with the kids here." Instead of taking ball, say "Now's not the time."
+Balls are things in playground. Balls are undescribed. Description of balls is "You played a little bit of soccer in middle school, but you'll probably stick to playing toss with the kids here." Instead of taking balls, say "Now's not the time."
 Plastic Toy Cart is thing in playground. Cart is undescribed. Description of cart is "Red body, yellow roof. The Cozy Coupe: a classic. You push the cart a little bit, and discover one of the wheels don't move."
 Wheel is a thing in Playground. Wheel is an open container. Wheel is undescribed. Description of Wheel is "Black plastic wheel attached to the cart. Wheel is detachable." Brown Cloth is inside Wheel.
 After taking Wheel, say "You take the wheel. Looks like there's a Brown Cloth inside the hollow of the wheel." [the if statements were somewhat difficult to understand] 
