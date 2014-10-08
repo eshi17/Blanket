@@ -2,7 +2,10 @@
 
 [title changed from Blanket to Child's Play to keep the player from knowing the objective before playing]
 
-When Play begins, say "Alice White: a freshly graduated girl, who succeeds in getting her first job as a teacher’s assistant at Sunny Day Preschool. She is passionate about what she does and is enthusiastic about doing well on her first job in the ‘real world’. Her first task at the school is to help the teacher, Miss Green, to get a child to stop crying.
+Release along with cover art ("Boy with blanket")
+[recieved this code from Brennan Brown]
+
+When Play begins, say "Alice White: a freshly graduated girl, who succeeds in getting her first job as a teacher’s assistant at Sunny Day Preschool. She is passionate about what she does and is enthusiastic about doing well on her first job in the ‘real world’. Her first task at the school is to help the teacher, Miss Mary, to get a child to stop crying.
 
 'Hello?'
 
@@ -24,7 +27,7 @@ When Play begins, say "Alice White: a freshly graduated girl, who succeeds in ge
 
 Monday:
 
-After slamming the car door shut, you gracefully walk across the Parking Lot towards the school. This is your first day in the real world. After four years of training, this is what you’ve been waiting for. You push open the glass doors and enter into the Parent Waiting Room. You glance around,
+After slamming the car door shut, you stride across the Parking Lot towards the school. This is your first day in the real world. After four years of training, this is what you’ve been waiting for. You push open the glass doors and enter into the Parent Waiting Room. You glance around,
 
 
 ~"
@@ -33,19 +36,27 @@ After slamming the car door shut, you gracefully walk across the Parking Lot tow
 
 [Parent Waiting Room]
 Parent Waiting Room is a room. It is east of Parking Lot.
-Description of Parent Waiting Room is "The room is a modestly sized rectangular room. Lining the pastel yellow walls are wooden armchairs. Against the north wall is the reception desk. There is a girl sitting behind the desk. To the West is the Parking Lot. To the South is the Office."
+Description of Parent Waiting Room is "The room is a modestly sized rectangular room. On the walls is a large bulletin board. Against the north wall is the reception desk. There is a girl sitting behind the desk. To the West is the Parking Lot. To the South is the Office."
 
 [The map changed drastically. Originally 10 rooms, I forced it to just 6 for practical reasons.]
 
-Description of Walls of Parent Waiting Room is "Pastel yellow— a neutral color. It’s quite calming, actually."
+Wall is scenery in Parent Waiting Room. Description of Wall is "Pastel yellow— a neutral color. It’s quite calming, actually."
 
-Armchair are scenery in Parent Waiting Room. Description of Armchair is "Wooden armchairs. Parents usually sit on the chairs as they wait for their kids. It’s a way to get them to calm down after a hectic day of work."
+Bulletin Board is scenery in Parent Waiting Room. Description of Bulletin Board is "There are lots of pictures of smiling children and field trip notifications tacked onto the board."
+
+Pictures is scenery in Parent Waiting Room. Description of Pictures are "Smiling children. These are the kids that you'll be working with. You're quite excited."
+
+Instead of taking pictures, say "You don't need that. Nor should you take it."
+
+Notifications is scenery in Parent Waiting Room. Description of Notifications are "There's a field trip to the zoo coming up. You can't wait!"
+
+Instead of taking notifications, say "You don't need that. Nor should you take it."
 
 Reception Desk is scenery in Parent Waiting Room. Description of Reception Desk is "The desk is very large, taking up almost half of the wall. There are a number of little trinkets and decorations including a potted plant and a ceramic pig. There is a girl sitting behind the desk."
 
 Trinkets are things in Parent Waiting Room. Trinkets are undescribed. Description of Trinkets is "Trinkets include a potted plant and a ceramic pig." Instead of taking Trinkets, say "Maybe you should examine them individually first."
 Potted Plant is scenery in Parent Waiting Room. "A leafy addition to the room. The plant is growing well."
-Ceramic Pig is thing in Parent Waiting Room. Ceramic Pig is undescribed. Description of Ceramic pig is "A small pig ceramic pig that fits nicely into the palm of your hand. When you shake it, a loud clinking sounds the room." Quarters is thing. Quarter is undescribed.
+Ceramic Pig is thing in Parent Waiting Room. Ceramic Pig is undescribed. Description of Ceramic pig is "A small pig ceramic pig that fits nicely into the palm of your hand. When you shake it, a loud clinking sounds the room." Quarters is thing. Quarter is undescribed. "[if the player is carrying quarters] A small pig ceramic pig that fits nicely into the palm of your hand. It is empty." [received this from Brennan Brown]
 Instead of taking Ceramic Pig, say "You ask if you can take the Ceramic Pig, but the girl at the desk says 'Of course not. That's my bus money. I need a dollar to take the bus, and those quarter's are gonna get me home. If you can give me a dollar bill or something, then you can take it.' You recall that you left your wallet inside the car." [I had to think about how to do this for a bit.]
 
 [As I described things, I realized I would describe the object by introducing more objects. This got tedious.]
@@ -64,13 +75,13 @@ Understand "talk to [someone]" or “speak to
 Check talking to: say "[The noun] doesn't reply."
 [Jim Aikin's Inform Handbook. This is one of the stranger commands that I probably could not figure out myself.]
 
-Instead of Talking to Girl, say "She looks up briefly, then back down to her phone. She nonchalantly says, 'You're with Miss Green. I recommend you speak to Miss Green first. To get to her classroom, you’ll have to go through the office.'"
+Instead of Talking to Girl, say "She looks up briefly, then back down to her phone. She nonchalantly says, 'You're with Miss Mary. I recommend you speak to her first. To get to her classroom, you’ll have to go through the office.'"
 
 [Parking Lot]
 Parking Lot is a room.
 Description of Parking Lot is "A large parking lot. There aren’t a lot of cars in the lot right now, but a couple hours later and it’ll be jam packed. Your car is parked in front of you. To the East is the Parent Waiting Room." Parking Lot is west of Parent Waiting Room.
 
-Car is a scenery in Parking Lot. Car is undescribed. Car is closed openable container. Car is locked container. Key unlocks car. Description of car is "A brown toyota. The key to the car is safely in your pocket. You beam at its presence in the faculty parking."
+Car is a scenery in Parking Lot. Car is undescribed. Car is closed openable container. Car is locked container. Key unlocks car. Description of car is "A brown Toyota. The key to the car is safely in your pocket. You beam at its presence in the faculty parking."
 
 After opening car, say "After pulling the door open, you stick your head into car. After rummaging around, you find your wallet lying under the carseat."
 
@@ -89,7 +100,7 @@ Instead of dropping key, say "You need that to go home tonight."
 Office is a room. South of Parent Waiting Room is Office. Description of Office is "The teachers don’t really need to grade anything, so only the administration workers need cubicles. There are only four cubicles, two on each side of the walk way at the center. As you scan the room, a woman walks past. Her nametag reads 'Miss Graham: Headmaster'. To the North is the Parent Waiting Room. To the West is the Lounge. To the South is the Classroom."
 
 Miss Graham is woman. [Jim Aikin's Inform Handbook. I really enjoyed making NPCs. I feel like they can give a story another strong force of "life".] Miss Graham is in Office. Miss Graham is undescribed. Description of Miss Graham is "A woman in her late 50's, she looks impressively fit. Wearing a smart black suit, Miss Graham has an air of authority surrounding her."
-Instead of talking to Miss Graham, say "You approach Miss Graham, and she turns to you. She smiles and says 'Hello, Miss White. I hope your first day is going well. If you have any problems or questions, please feel free to ask me. Now move along, you should be in Miss Green's classroom.'" [I had to add in that last part saying move along because some of my beta testers had no idea what they needed to do. The NPCs also acted as a guide.]
+Instead of talking to Miss Graham, say "You approach Miss Graham, and she turns to you. She smiles and says 'Hello, Miss White. I hope your first day is going well. If you have any problems or questions, please feel free to ask me. Now move along, you should be in Miss Mary's classroom.'" [I had to add in that last part saying move along because some of my beta testers had no idea what they needed to do. The NPCs also acted as a guide.]
 Instead of asking Miss Graham about "Brown Cloth", say "You show her the brown Cloth and explain the situation. She laughs and says, 'Don't worry. There's a washer-dryer machine in the faculty lounge. You can wash the blanket there." [This dialogue was optional, but I put it in so players can have a hint without feeling super guilty.]
 Instead of asking Miss Graham about "Blanket", say "You tell her about George's blanket, and ask if she might know anything. She replies, 'Hmm, I'm not sure where it is. The kids usually play in the playground, so you could check there.'"
 
@@ -121,21 +132,21 @@ An every turn rule:
 
 		
 [Classroom]
-Classroom is a room. Classroom is south of Office. Description of Classroom is "A somewhat large room, walls covered in posters. The floor is cluttered with toys and furniture. Small children run around, screaming at each other. Some of the younger children sit dumbly on a brightly colored rug, chewing on some poor plastic toy. There is a large window on the west wall, overlooking the playground. Along the four walls are cubby holes. The Office is to the North, and the Playground is to the West. Miss Green, the teacher, stands by the window, consoling a crying child."
-Toys are things in the classroom. Description of Toys is "Teddy bears, alphabet blocks, puzzle pieces are srewn across the rug. At the end of the day, you're going to have to pick the saliva-covered toys all up." Toys are undescribed. Instead of taking toys, say "You don't need that."
+Classroom is a room. Classroom is south of Office. Description of Classroom is "A somewhat large room, walls covered in posters. The floor is cluttered with toys and furniture. Small children run around, screaming at each other. Some of the younger children sit dumbly on a brightly colored rug, chewing on some poor plastic toy. There is a large window on the west wall, overlooking the playground. Along the four walls are cubby holes. The Office is to the North, and the Playground is to the West. Miss Mary, the teacher, stands by the window, consoling a crying child."
+Toys are things in the classroom. Description of Toys is "Teddy bears, alphabet blocks, puzzle pieces are strewn across the rug. At the end of the day, you're going to have to pick the saliva-covered toys all up." Toys are undescribed. Instead of taking toys, say "You don't need that."
 Furniture are things in the classroom. Description of Furniture is "Some plastic chairs and tables for children. The kids have turned the table over and are building some kind of tower." Furniture are undescribed. Instead of taking furniture, say "You don't need that." Rug is scenery in the classroom.
 Posters are things in the classroom. Description of Posters is "Cartoon flowers and colorful butterflies smile from the posters. A large poster with the alphabet dominates the center of the room." Posters are undescribed. Instead of taking posters, say "You don't need that."
-Rug is scenery in the classroom. Description of Rug is "The large blue rug is spread across the floor. Along with the colorful shapes and images are woven into the rug, you also notice some unidentified sploches. You'd rather not ask."
+Rug is scenery in the classroom. Description of Rug is "The large blue rug is spread across the floor. Along with the colorful shapes and images are woven into the rug, you also notice some unidentified splotches. You'd rather not ask."
 Children are scenery in classroom. Description of Children is "You wave at the younger kids sitting on the floor. The stare at you and crack a smile before returning to their designated toy."
 Window is scenery in classroom. Description of Window is "Sunlight flows into the room, highlighting specks of dust floating in the air. The window overlooks the playground to the west. It is not recess yet, and there are no children outside."
 Cubby Holes is scenery in classroom. Description of Cubby Holes is "A wooden shelf divided into small cubes. Children can put their belongings in here. A quick glance and you see small backpacks and lunchbags."
 Backpacks are things in the classroom. Description of Backpacks is "Barbie, Hello Kitty, or Thomas the Train. There are no other options." Backpacks are undescribed. Instead of taking backpacks, say "These aren't for you to take, nor do you need them."
 Lunchbags are things in the classroom. Description of Lunchbags is "The kids are required to bring home lunch, because the school is too small to provide lunch." Lunchbags are undescribed. Instead of taking lunchbags, say "These aren't for you to take, nor do you need them."
 
-Miss Green is a woman. Miss Green is in Classroom. Miss Green is undescribed. Description of Miss Green is "A middle aged woman in her 40s, Miss Green is somewhat plump. She wears a demin dress that stretches tightly around her gut. You're amazed that she can move in it."
-Instead of talking to Miss Green, say "You walk up to Miss Green, and say 'Hello.' She sighs in relief and says, 'Thank the Lord that you're here! This is George,' she says, gesturing to the crying child. 'Right now, I need you to get him to stop crying. I really need to get the kids in order, and a wailing child does not help!' George, a small boy, looks to you as Miss Green hurries away to settle another dispute."
-Instead of asking Miss Green about "George", say "'She seems a little preoccupied right now,' you think as she chases a small girl around the room."
-Instead of asking Miss Green about "Blanket", say "'Maybe now's not the time,' you think as she chases a small boy around the room."
+Miss Mary is a woman. Miss Mary is in Classroom. Miss Mary is undescribed. Description of Miss Mary is "A middle aged woman in her 40s, Miss Mary is somewhat plump. She wears a denim dress that stretches tightly around her gut. You're amazed that she can move in it."
+Instead of talking to Miss Mary, say "You walk up to Miss Mary, and say 'Hello.' She sighs in relief and says, 'Thank the Lord that you're here! This is George,' she says, gesturing to the crying child. 'Right now, I need you to get him to stop crying. I really need to get the kids in order, and a wailing child does not help!' George, a small boy, looks to you as Miss Mary hurries away to settle another dispute."
+Instead of asking Miss Mary about "George", say "'She seems a little preoccupied right now,' you think as she chases a small girl around the room."
+Instead of asking Miss Mary about "Blanket", say "'Maybe now's not the time,' you think as she chases a small boy around the room."
 
 George is a man. George is in Classroom. Description of George is "A small boy who's about 2 years of age. His hair is cut into a bowl, resting high above his eyebrows. He retains some baby fat, but compared to other children, he is a skinny boy." George is undescribed. Instead of talking to George, say "You ask George what's wrong. He wails, 'B-blanky is gone.' Blanky? What's that? Ask him about it."
 Instead of asking George about "blanky", say "'Soft blanky. Is blue, and soft. I want it!' You ask him where he saw it last, to which he replies 'Playground! Morning recess I ride cart and put it on my head. It fall down and I losed it. Then the cart broke.'"
@@ -162,9 +173,8 @@ Jump Ropes is thing in playground. Jump ropes is undescribed. Description of jum
 Ball are things in playground. Ball are undescribed. Description of ball is "You played a little bit of soccer in middle school, but you'll probably stick to playing toss with the kids here." Instead of taking ball, say "Now's not the time."
 Plastic Toy Cart is thing in playground. Cart is undescribed. Description of cart is "Red body, yellow roof. The Cozy Coupe: a classic. You push the cart a little bit, and discover one of the wheels don't move."
 Wheel is a thing in Playground. Wheel is an open container. Wheel is undescribed. Description of Wheel is "Black plastic wheel attached to the cart. Wheel is detachable." Brown Cloth is inside Wheel.
-After taking Wheel:
-	if Brown Cloth is inside Wheel, say "You unhook the wheel from the cart, and take off the wheel. Looks like there's a Brown Cloth inside the hollow of the wheel." [the if statements were somewhat difficult to understand]
-Brown Cloth is a thing. Brown Cloth is undescribed. Description of Brown Cloth is "On closer inspection, you realize that the Brown Cloth is a blanket soaked with mud. It must be George's soft blue Blanky! You can't give it back to George like this! There must be a way to fix this... maybe Miss Graham can help." [when describing things, I had some troubles with plurals and singular nouns. They got mixed up, and the code didn't work]
+After taking Wheel, say "You take the wheel. Looks like there's a Brown Cloth inside the hollow of the wheel." [the if statements were somewhat difficult to understand] 
+Brown Cloth is a thing. Brown Cloth is undescribed. Description of Brown Cloth is "On closer inspection, you realize that the Brown Cloth is a blanket soaked with mud. It must be George's soft blue Blanky! You can't give it back to George like this! There must be a way to fix this... maybe Miss Graham can help." [when describing things, I had some troubles with plurals and singular nouns. They got mixed up, and the code didn't work] Understand "blanky" as Brown Cloth.
 
 [Player]
 Description of Player is "You tried your best to dress as 'teacher-y' as you could this morning, throwing on a pair of slacks and a blouse. You pulled your blonde hair into a sleek ponytail, kept your face free of make-up. You didn't bring that much with you- all you've brought from home is your car key. You're ready to face those kids."
