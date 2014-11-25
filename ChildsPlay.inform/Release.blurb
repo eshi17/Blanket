@@ -1,19 +1,19 @@
 ! Blurb file created by Inform build 6L38
 
-status "/Users/eshi17/Desktop/ComputerScience/Inform.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Users/eshi17/Desktop/GitHub/ChildsPlayGH/ChildsPlay.inform/Build/StatusCblorb.html"
+status "/Users/eshi17/Desktop/ComputerScience/Inform.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Users/eshi17/Desktop/ComputerScience/GitHub/ChildsPlayGH/ChildsPlay.inform/Build/StatusCblorb.html"
 
 
 ! Identification
 
-project folder "/Users/eshi17/Desktop/GitHub/ChildsPlayGH/ChildsPlay.inform"
+project folder "/Users/eshi17/Desktop/ComputerScience/GitHub/ChildsPlayGH/ChildsPlay.inform"
 
 ! Blorb instructions
 
 storyfile leafname "Child's Play.gblorb"
-storyfile "/Users/eshi17/Desktop/GitHub/ChildsPlayGH/ChildsPlay.inform/Build/output.ulx" include
-ifiction "/Users/eshi17/Desktop/GitHub/ChildsPlayGH/ChildsPlay.inform/Metadata.iFiction" include
-cover "/Users/eshi17/Desktop/GitHub/ChildsPlayGH/ChildsPlay.materials/Cover.png"
-picture 1 "/Users/eshi17/Desktop/GitHub/ChildsPlayGH/ChildsPlay.materials/Cover.png"
+storyfile "/Users/eshi17/Desktop/ComputerScience/GitHub/ChildsPlayGH/ChildsPlay.inform/Build/output.ulx" include
+ifiction "/Users/eshi17/Desktop/ComputerScience/GitHub/ChildsPlayGH/ChildsPlay.inform/Metadata.iFiction" include
+cover "/Users/eshi17/Desktop/ComputerScience/GitHub/ChildsPlayGH/ChildsPlay.materials/Cover.png"
+picture 1 "/Users/eshi17/Desktop/ComputerScience/GitHub/ChildsPlayGH/ChildsPlay.materials/Cover.png"
 
 ! Placeholder variables
 
